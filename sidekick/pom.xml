@@ -54,7 +54,7 @@
         <maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
         <java.version>1.8</java.version>
 
-        <thundra.swark.version>0.0.2</thundra.swark.version>
+        <thundra.swark.version>0.0.10</thundra.swark.version>
 
         <mysql.jdbc.version>8.0.28</mysql.jdbc.version>
         <jakarta.validation-api.version>2.0.2</jakarta.validation-api.version>
@@ -381,7 +381,7 @@
                     <configuration>
                         <createDependencyReducedPom>false</createDependencyReducedPom>
                         <transformers>
-                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                         </transformers>
                     </configuration>
                     <executions>
