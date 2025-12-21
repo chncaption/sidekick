@@ -58,7 +58,7 @@
 
         <mysql.jdbc.version>8.0.28</mysql.jdbc.version>
         <jakarta.validation-api.version>2.0.2</jakarta.validation-api.version>
-        <log4j.logging.version>2.18.0</log4j.logging.version>
+        <log4j.logging.version>2.25.3</log4j.logging.version>
         <lombok.version>1.18.16</lombok.version>
         <jackson.version>2.12.6</jackson.version>
         <jackson-databind.version>2.12.6.1</jackson-databind.version>
@@ -381,7 +381,7 @@
                     <configuration>
                         <createDependencyReducedPom>false</createDependencyReducedPom>
                         <transformers>
-                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                         </transformers>
                     </configuration>
                     <executions>
